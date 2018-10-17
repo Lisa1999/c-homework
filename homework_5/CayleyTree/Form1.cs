@@ -95,7 +95,7 @@ namespace CayleyTree
                 else p2 = Convert.ToDouble(textBox5.Text);
 
                 if (Convert.ToDouble(textBox3.Text) <= 0)
-                    throw new Exception("k 不能为负!");
+                    throw new Exception("k  不能为负!");
                 else k = Convert.ToDouble(textBox3.Text);
             }
             catch (Exception e)
